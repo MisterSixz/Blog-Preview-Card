@@ -1,0 +1,31 @@
+:root{
+    --clr-primary:hsl(47, 88%, 63%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-grey: hsl(0, 0%, 50%);
+    --clr-black: hsl(0, 0%, 7%)
+}
+
+*{
+    margin: 0;
+    line-height: calc(1em+0.5rems);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--clr-primary);
+}
+
+img,video,picture,canvas,svg{
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+p{
+    font-size: 1rem;
+}
+
